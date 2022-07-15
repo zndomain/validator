@@ -1,0 +1,21 @@
+{
+  "name": "zndomain/validator",
+  "type": "extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zn Developer",
+      "email": "zndev@ya.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    
+  },
+  "autoload": {
+    "psr-4": {
+      "ZnDomain\\Validator\\": "src",
+      "ZnDomain\\Validator\\Tests\\": "tests"
+    }
+  }
+}
